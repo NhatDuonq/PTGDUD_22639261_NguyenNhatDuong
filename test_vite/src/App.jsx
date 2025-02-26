@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import BaiTap1 from './components/BaiTap1.jsx'
-import TodoList from './components/ToDoList.jsx'
-
+import BaiTap1 from './Lab1/BaiTap1.jsx'
+import TodoList from './Lab1/ToDoList.jsx'
+import RateCalculation from './Lab2/RateCalculation.jsx'
 function App() {
 
 return(
   <>
-    <TodoList />
+   <RateCalculation />
 
   </>
 )
